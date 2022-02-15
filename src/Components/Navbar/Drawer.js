@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { BrowserRouter as Router, Link, useHistory } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 
 import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
