@@ -1,0 +1,35 @@
+.package-modal-container {
+    background-color: rgba(99, 56, 56, 0.308);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 55;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.package-modal-outline {
+    background-color: rgba(0, 0, 0, 0.212);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 4;
+}
+
+.package-modal-inline {
+    background-color: #ffffff;
+    min-height: 35%;
+    width: 20rem;
+    border-radius: 5px;
+    margin-bottom: 15vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 4px 4px 4rem rgba(0, 0, 0, 0.25);
+    z-index: 5;
+}
